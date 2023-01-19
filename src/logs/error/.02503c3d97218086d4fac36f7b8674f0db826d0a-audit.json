@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/.02503c3d97218086d4fac36f7b8674f0db826d0a-audit.json",
+    "files": [
+        {
+            "date": 1674087979399,
+            "name": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/2023-01-19.log",
+            "hash": "6328e24d18782d122d86af6fb539ddfaf4fe24c94ca9df3e728683b37cd054e7"
+        }
+    ],
+    "hashType": "sha256"
+}
