@@ -1,0 +1,216 @@
+2023-01-24 00:10:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(23,7): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(23,7): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-569591426964509.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-569591426964509.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-569591426964509.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:10:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(21,42): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(22,22): error TS2304: Cannot find name 're'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(21,42): error TS6133: 'req' is declared but its value is never read.
+src/routes/user.routes.ts(22,22): error TS2304: Cannot find name 're'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-569591426964509.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-569591426964509.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-569591426964509.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:10:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(21,42): error TS6133: 'req' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(21,42): error TS6133: 'req' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-569591426964509.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-569591426964509.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-569591426964509.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:10:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(22,19): error TS1135: Argument expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(22,19): error TS1135: Argument expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-569591426964509.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-569591426964509.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-569591426964509.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:12:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(26,9): error TS2304: Cannot find name 'userId'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(26,9): error TS2304: Cannot find name 'userId'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-569591426964509.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-569591426964509.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-569591426964509.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:13:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(26,9): error TS2304: Cannot find name 'id'.
+src/routes/user.routes.ts(23,20): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(26,9): error TS2304: Cannot find name 'id'.
+src/routes/user.routes.ts(23,20): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-569591426964509.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-569591426964509.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-569591426964509.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:13:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(26,9): error TS2304: Cannot find name 'id'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(26,9): error TS2304: Cannot find name 'id'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-569591426964509.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-569591426964509.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-569591426964509.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:15:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(38,9): error TS2304: Cannot find name 'userId'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(38,9): error TS2304: Cannot find name 'userId'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-569591426964509.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-569591426964509.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-569591426964509.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:21:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(35,13): error TS1182: A destructuring declaration must have an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(35,13): error TS1182: A destructuring declaration must have an initializer.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-16542124512483158.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-16542124512483158.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-16542124512483158.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:21:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(48,13): error TS1182: A destructuring declaration must have an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(48,13): error TS1182: A destructuring declaration must have an initializer.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-16542124512483158.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-16542124512483158.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-16542124512483158.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:22:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(51,13): error TS1182: A destructuring declaration must have an initializer.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(51,13): error TS1182: A destructuring declaration must have an initializer.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-16542124512483158.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-16542124512483158.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-16542124512483158.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:22:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(51,13): error TS1182: A destructuring declaration must have an initializer.
+src/routes/user.routes.ts(51,21): error TS7031: Binding element 'updateUse' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(51,13): error TS1182: A destructuring declaration must have an initializer.
+src/routes/user.routes.ts(51,21): error TS7031: Binding element 'updateUse' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-16542124512483158.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-16542124512483158.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-16542124512483158.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 00:22:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(51,13): error TS1182: A destructuring declaration must have an initializer.
+src/routes/user.routes.ts(51,21): error TS7031: Binding element 'userBody' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(51,13): error TS1182: A destructuring declaration must have an initializer.
+src/routes/user.routes.ts(51,21): error TS7031: Binding element 'userBody' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-16542124512483158.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-16542124512483158.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-16542124512483158.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
