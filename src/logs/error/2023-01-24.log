@@ -737,3 +737,336 @@ Error: write EPIPE
     at Module.require (node:internal/modules/cjs/loader:1005:19)
     at require (node:internal/modules/cjs/helpers:102:18)
     at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/ConnectionConfig.js:2:23)
+2023-01-24 20:24:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(5,33): error TS2304: Cannot find name 'UserService'.
+src/user/user.controller.ts(5,51): error TS2304: Cannot find name 'UserService'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(5,33): error TS2304: Cannot find name 'UserService'.
+src/user/user.controller.ts(5,51): error TS2304: Cannot find name 'UserService'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:25:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(15,5): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(15,5): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:25:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(14,23): error TS2304: Cannot find name 'awa'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(14,23): error TS2304: Cannot find name 'awa'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:25:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(14,34): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(14,34): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:26:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(9,5): error TS2304: Cannot find name 'logger'.
+src/user/user.service.ts(9,20): error TS2304: Cannot find name 'UserController'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(9,5): error TS2304: Cannot find name 'logger'.
+src/user/user.service.ts(9,20): error TS2304: Cannot find name 'UserController'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:26:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(9,5): error TS2304: Cannot find name 'logger'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:26:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(11,11): error TS1155: 'const' declarations must be initialized.
+src/user/user.service.ts(11,11): error TS7005: Variable 'u' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(11,11): error TS1155: 'const' declarations must be initialized.
+src/user/user.service.ts(11,11): error TS7005: Variable 'u' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:26:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(12,3): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(12,3): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:29:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(18,10): error TS7008: Member 'getUser' implicitly has an 'any' type.
+src/user/user.service.ts(24,3): error TS7008: Member 'P' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(18,10): error TS7008: Member 'getUser' implicitly has an 'any' type.
+src/user/user.service.ts(24,3): error TS7008: Member 'P' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:29:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(29,3): error TS7008: Member 'pub' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(29,3): error TS7008: Member 'pub' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:30:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(18,28): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(32,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(39,31): error TS6133: 'id' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(18,28): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(32,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(39,31): error TS6133: 'id' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:30:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(18,28): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(33,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(40,31): error TS6133: 'id' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(18,28): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(33,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(40,31): error TS6133: 'id' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:30:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(33,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(40,31): error TS6133: 'id' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(33,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(40,31): error TS6133: 'id' is declared but its value is never read.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:31:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(27,62): error TS2304: Cannot find name 'id'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(27,62): error TS2304: Cannot find name 'id'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:31:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(27,61): error TS2304: Cannot find name 'id'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(27,61): error TS2304: Cannot find name 'id'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:31:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(24,11): error TS1155: 'const' declarations must be initialized.
+src/user/user.controller.ts(24,11): error TS7005: Variable 'user' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(24,11): error TS1155: 'const' declarations must be initialized.
+src/user/user.controller.ts(24,11): error TS7005: Variable 'user' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:31:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(24,29): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(24,29): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:31:56 error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at process.target._send (node:internal/child_process:866:20)
+    at process.target.send (node:internal/child_process:739:19)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at process.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/wrap.js:78:9)
+    at process.emit (node:events:539:35)
+    at process.emit (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:516:21)
+    at process._fatalException (node:internal/process/execution:167:25)
+2023-01-24 20:31:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(24,41): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(24,41): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-24 20:32:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(24,53): error TS2304: Cannot find name 'u'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(24,53): error TS2304: Cannot find name 'u'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-533436385109767.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-533436385109767.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-533436385109767.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

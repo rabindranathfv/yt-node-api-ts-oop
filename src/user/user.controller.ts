@@ -1,7 +1,10 @@
 import { Request, Response } from "express";
+import { idText } from "typescript";
 import { logger } from "../utils/logger";
+import UserService from "./user.service";
 
 class UserController {
+  private readonly userService: UserService = new UserService();
   constructor() {}
 
   /**
@@ -9,7 +12,8 @@ class UserController {
    */
   public getAllUsers = async (_req: Request, res: Response) => {
     logger.info(`${UserController.name} - getAllUsers`);
-    return res.status(200).json({ ok: true, message: `list of Users` });
+    const usersResp = await this.userService.getAllUsers();
+    return res.json({ ok: true, users: usersResp, message: `list of Users` });
   };
 
   /**
@@ -18,7 +22,8 @@ class UserController {
   public getUserById = async (req: Request, res: Response) => {
     const { id: userId } = req.params;
     logger.info(`${UserController.name} - getUserById with id ${userId}`);
-    return res.status(200).json({ ok: true, message: `user's detail` });
+    const user = await this.userService.getUserById(userId);
+    return res.status(200).json({ ok: true, user, message: `user's detail` });
   };
 
   /**
@@ -27,17 +32,13 @@ class UserController {
   public createUser = async (req: Request, res: Response) => {
     logger.info(`${UserController.name} - createUser`);
     const { body: userBody } = req;
-    console.log(
-      "🚀 ~ file: user.controller.ts:31 ~ UserController ~ createUser= ~ userBody",
-      userBody
-    );
     const { email } = userBody;
-    return res
-      .status(200)
-      .json({
-        ok: true,
-        message: `users with email ${email} was create succesfully`,
-      });
+    const newUser = await this.userService.createUser(userBody);
+    return res.status(200).json({
+      ok: true,
+      user: newUser,
+      message: `users with email ${email} was create succesfully`,
+    });
   };
 
   /**
@@ -52,9 +53,12 @@ class UserController {
       "🚀 ~ file: user.controller.ts:48 ~ UserController ~ updateUserById= ~ userBody",
       userBody
     );
-    return res
-      .status(200)
-      .json({ ok: true, message: `user's update successfully` });
+    const updatedUser = await this.userService.updateUserById(userId, userBody);
+    return res.status(200).json({
+      ok: true,
+      user: updatedUser,
+      message: `user's update successfully`,
+    });
   };
 
   /**
@@ -63,10 +67,12 @@ class UserController {
   public deleteUserById = async (req: Request, res: Response) => {
     const { id: userId } = req.params;
     logger.info(`${UserController.name} - deleteUserById with id ${userId}`);
-
-    return res
-      .status(200)
-      .json({ ok: true, message: `user's deleted successfully` });
+    const userDeleted = await this.userService.deleteUserById(userId);
+    return res.status(200).json({
+      ok: true,
+      user: userDeleted,
+      message: `user's deleted successfully`,
+    });
   };
 }
 
