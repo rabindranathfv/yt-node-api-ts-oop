@@ -1,0 +1,16 @@
+version: '3.0'
+
+services:
+  testimonials_db_dev:
+    image: mysql:5.7
+    volumes:
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    command: --init-file /docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "3412:3306"
+    environment:
+      MYSQL_DATABASE: testimonials_db_dev
+      MYSQL_ROOT_USER: userrfv
+      MYSQL_USER: userrfv
+      MYSQL_ROOT_PASSWORD: SECRET
+      MYSQL_PASSWORD: SECRET
