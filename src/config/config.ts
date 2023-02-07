@@ -1,8 +1,8 @@
-import { config } from "dotenv";
+import { config } from 'dotenv';
 import { DataSource } from 'typeorm';
-import { AppDataSource } from "./data.source";
+import { AppDataSource } from './data.source';
 
-config({ path: `.env.${process.env.NODE_ENV || "development"}.local` });
+config({ path: `.env.${process.env.NODE_ENV || 'development'}.local` });
 
 export const {
   NODE_ENV,

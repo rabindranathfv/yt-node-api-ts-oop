@@ -1,8 +1,8 @@
-import { Routes } from "../interfaces/route.interface";
-import { Router, Request, Response } from "express";
+import { Routes } from '../interfaces/route.interface';
+import { Router, Request, Response } from 'express';
 
 class BaseRoute implements Routes {
-  public path = "/alive";
+  public path = '/alive';
   public router = Router();
 
   constructor() {

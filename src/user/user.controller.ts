@@ -1,10 +1,10 @@
-import { Request, Response } from "express";
-import { idText } from "typescript";
-import { logger } from "../utils/logger";
-import UserService from "./user.service";
+import { Request, Response } from 'express';
+import { logger } from '../utils/logger';
+import UserService from './user.service';
 
 class UserController {
   private readonly userService: UserService = new UserService();
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() {}
 
   /**
@@ -49,10 +49,7 @@ class UserController {
     logger.info(`${UserController.name} - updateUserById with id ${userId}`);
 
     const { body: userBody } = req;
-    console.log(
-      "🚀 ~ file: user.controller.ts:48 ~ UserController ~ updateUserById= ~ userBody",
-      userBody
-    );
+    console.log('🚀 ~ file: user.controller.ts:48 ~ UserController ~ updateUserById= ~ userBody', userBody);
     const updatedUser = await this.userService.updateUserById(userId, userBody);
     return res.status(200).json({
       ok: true,

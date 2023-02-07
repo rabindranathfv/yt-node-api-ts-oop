@@ -1,7 +1,7 @@
-import { DataSource } from "typeorm";
-import { DB_NAME, DB_PORT } from "../config/config";
-import { AppDataSource } from "../config/data.source";
-import { logger } from "../utils/logger";
+import { DataSource } from 'typeorm';
+import { DB_NAME, DB_PORT } from '../config/config';
+import { AppDataSource } from '../config/data.source';
+import { logger } from '../utils/logger';
 
 // TODO: Eliminar ya que no lo estamos usando
 export const mySqlConnection = async (): Promise<DataSource> => {

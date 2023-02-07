@@ -1,9 +1,9 @@
-import { Router, Response, Request } from "express";
-import { Routes } from "../interfaces/route.interface";
-import UserController from "../user/user.controller";
+import { Router } from 'express';
+import { Routes } from '../interfaces/route.interface';
+import UserController from '../user/user.controller';
 
 class UserRoute implements Routes {
-  public path = "/user";
+  public path = '/user';
   public router = Router();
   public userController = new UserController();
 
