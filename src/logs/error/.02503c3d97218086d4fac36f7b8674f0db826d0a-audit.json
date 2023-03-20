@@ -24,6 +24,11 @@
             "date": 1678635610209,
             "name": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/2023-03-12.log",
             "hash": "5771983018fe0a823862c0c3c063aa68369a70392a9bf4fcd17eef419358dc0e"
+        },
+        {
+            "date": 1679353383858,
+            "name": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/2023-03-21.log",
+            "hash": "90ccda801a01a2ed5117d1c47871571c5d07f0fc7472569994395a359efb2968"
         }
     ],
     "hashType": "sha256"
