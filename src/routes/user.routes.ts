@@ -3,7 +3,7 @@ import { Routes } from '../interfaces/route.interface';
 import UserController from '../user/user.controller';
 
 class UserRoute implements Routes {
-  public path = '/user';
+  public path = '/users';
   public router = Router();
   public userController = new UserController();
 
@@ -15,7 +15,7 @@ class UserRoute implements Routes {
    * initUserRoute
    */
   public initUserRoute() {
-    this.router.get(`${this.path}s`, this.userController.getAllUsers);
+    this.router.get(`${this.path}`, this.userController.getAllUsers);
 
     this.router.get(`${this.path}/:id`, this.userController.getUserById);
 

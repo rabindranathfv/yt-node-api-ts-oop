@@ -1,8 +1,9 @@
-import { Column, Entity, OneToOne, PrimaryGeneratedColumn, Unique } from 'typeorm';
+import { Column, CreateDateColumn, Entity, OneToOne, PrimaryGeneratedColumn, Unique, UpdateDateColumn } from 'typeorm';
 import { CustomerEntity } from '../../customer/entities/customer.entity';
+import { User } from '../interface/user.interface';
 
 @Entity({ name: 'user' })
-export class UserEntity {
+export class UserEntity implements User {
   @PrimaryGeneratedColumn()
   id!: string;
 
@@ -16,13 +17,18 @@ export class UserEntity {
   @Unique(['email'])
   email!: string;
 
+  @Column({ select: false })
+  password!: string;
+
   @Column()
   gender!: string;
 
   @Column()
+  @CreateDateColumn()
   createdAt!: Date;
 
   @Column()
+  @UpdateDateColumn()
   updateAt!: Date;
 
   @OneToOne(() => CustomerEntity, (customer) => customer.user)

@@ -1,28 +1,34 @@
 import { logger } from '../utils/logger';
+import { BaseService } from '../config/base.service';
+import { UserEntity } from './entities/user.entity';
+import { UpdateResult } from 'typeorm';
+import { UserDTO } from './dto/user.dto';
 
-class UserService {
+class UserService extends BaseService<UserEntity> {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  constructor() {}
+  constructor() {
+    super(UserEntity);
+  }
 
   /**
    * getAllUsers
    */
-  public async getAllUsers() {
+  public async getAllUsers(): Promise<UserEntity[]> {
     logger.info(`${UserService.name} - getAllUsers`);
-    const users = [{ id: 1, fullname: 'rabindranath ferreira', email: 'rfv@correo.com' }];
+    const users = await (await this.useRepository).find();
     return users;
   }
 
   /**
    * getUserById
    */
-  public async getUserById(id: string) {
-    logger.info(`${UserService.name} - getUserById with id ${id}`);
-    const user = {
-      id,
-      fullname: 'pedro lopez',
-      email: 'plopez@correo.com',
-    };
+  public async getUserById(uId: string): Promise<UserEntity | null> {
+    logger.info(`${UserService.name} - getUserById with id ${uId}`);
+    const user = await (await this.useRepository).findOneBy({ id: uId });
+    if (!user) {
+      // TODO agregar o retonar error
+      console.log('Error no se encontro el usuario');
+    }
 
     return user;
   }
@@ -30,21 +36,25 @@ class UserService {
   /**
    * createUser
    */
-  public async createUser(userBody: any) {
+  public async createUser(userBody: UserDTO) {
     console.log('🚀 ~ file: user.service.ts:35 ~ UserService ~ createUser ~ userBody', userBody);
     logger.info(`${UserService.name} - createUser`);
-    const newUser = { ...userBody, id: 1000 };
-    return newUser;
+    const newUser = await (await this.useRepository).create(userBody);
+    return (await this.useRepository).save(newUser);
   }
 
   /**
    * updateUserById
    */
-  public async updateUserById(id: string, updateUserBody: any) {
+  public async updateUserById(id: string, updateUserBody: any): Promise<UpdateResult | null> {
     console.log('🚀 ~ file: user.service.ts:48 ~ UserService ~ updateUserById ~ updateUserBody', updateUserBody);
     logger.info(`${UserService.name} - updateUserById with id ${id}`);
-    const updatedUser = { ...updateUserBody, id: 1000 };
-    return updatedUser;
+    const findUser = await (await this.useRepository).findOneBy({ id });
+    if (!findUser) {
+      // TODO agregar o retonar error
+      console.log('el usuario no EXISTE!!!');
+    }
+    return await (await this.useRepository).update(id, { ...updateUserBody });
   }
 
   /**
@@ -52,13 +62,13 @@ class UserService {
    */
   public async deleteUserById(id: string) {
     logger.info(`${UserService.name} - deleteUserById with id ${id}`);
-    const userDeleted = {
-      id,
-      fullname: 'carlos diaz',
-      email: 'cdiaz@correo.com',
-    };
+    const findUser = await (await this.useRepository).findOneBy({ id });
+    if (!findUser) {
+      // TODO agregar o retonar error
+      console.log('el usuario no EXISTE!!!');
+    }
 
-    return userDeleted;
+    return await (await this.useRepository).delete({ id });
   }
 }
 

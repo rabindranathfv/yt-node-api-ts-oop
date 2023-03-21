@@ -3,9 +3,8 @@ import { logger } from '../utils/logger';
 import UserService from './user.service';
 
 class UserController {
-  private readonly userService: UserService = new UserService();
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  constructor() {}
+  constructor(private readonly userService: UserService = new UserService()) {}
 
   /**
    * getAllUsers
@@ -31,13 +30,11 @@ class UserController {
    */
   public createUser = async (req: Request, res: Response) => {
     logger.info(`${UserController.name} - createUser`);
-    const { body: userBody } = req;
-    const { email } = userBody;
-    const newUser = await this.userService.createUser(userBody);
+    const newUser = await this.userService.createUser(req.body);
     return res.status(200).json({
       ok: true,
       user: newUser,
-      message: `users with email ${email} was create succesfully`,
+      message: `users was create succesfully`,
     });
   };
 

@@ -1,5 +1,5 @@
 import { Column, Entity, JoinColumn, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
-import { TestimonialUsageEntity } from '../../custom/entities/testimonial-usage.entity';
+import { TestimonialUsageEntity } from './testimonial-usage.entity';
 import { CustomerEntity } from '../../customer/entities/customer.entity';
 
 @Entity({ name: 'testimonial' })
