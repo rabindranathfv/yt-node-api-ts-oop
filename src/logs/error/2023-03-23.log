@@ -645,3 +645,248 @@ Error: write EPIPE
     at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
     at Module.load (node:internal/modules/cjs/loader:981:32)
     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:04:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(34,40): error TS2304: Cannot find name 'usersResp'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(34,40): error TS2304: Cannot find name 'usersResp'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:05:13 error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at process.target._send (node:internal/child_process:866:20)
+    at process.target.send (node:internal/child_process:739:19)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .js] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/packets/index.js:18:29)
+2023-03-23 18:05:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:05:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:05:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+src/user/user.controller.ts(72,12): error TS2304: Cannot find name 'user'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+src/user/user.controller.ts(72,12): error TS2304: Cannot find name 'user'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:06:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:07:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(65,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:08:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(73,24): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(73,24): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:09:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(58,40): error TS2304: Cannot find name 'usersResp'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(58,40): error TS2304: Cannot find name 'usersResp'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:09:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(49,23): error TS7030: Not all code paths return a value.
+src/user/user.controller.ts(54,15): error TS1109: Expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(49,23): error TS7030: Not all code paths return a value.
+src/user/user.controller.ts(54,15): error TS1109: Expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:09:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,7): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(56,7): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:10:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(87,40): error TS2304: Cannot find name 'updatedUser'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(87,40): error TS2304: Cannot find name 'updatedUser'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:10:26 error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at process.target._send (node:internal/child_process:866:20)
+    at process.target.send (node:internal/child_process:739:19)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .js] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/sequences/index.js:7:22)
+2023-03-23 18:10:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(82,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(82,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-03-23 18:10:42 error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at process.target._send (node:internal/child_process:866:20)
+    at process.target.send (node:internal/child_process:739:19)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at process.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/wrap.js:78:9)
+    at process.emit (node:events:539:35)
+    at process.emit (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:516:21)
+    at process._fatalException (node:internal/process/execution:167:25)
+2023-03-23 18:11:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(86,26): error TS2304: Cannot find name 'User'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(86,26): error TS2304: Cannot find name 'User'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-20549233854710125.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-20549233854710125.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-20549233854710125.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
