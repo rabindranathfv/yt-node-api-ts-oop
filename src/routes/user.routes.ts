@@ -15,15 +15,15 @@ class UserRoute implements Routes {
    * initUserRoute
    */
   public initUserRoute() {
-    this.router.get(`${this.path}`, this.userController.getAllUsers);
+    this.router.get(`${this.path}`, (req, res) => this.userController.getAllUsers(req, res));
 
-    this.router.get(`${this.path}/:id`, this.userController.getUserById);
+    this.router.get(`${this.path}/:id`, (req, res) => this.userController.getUserById(req, res));
 
-    this.router.post(`${this.path}`, this.userController.createUser);
+    this.router.post(`${this.path}`, (req, res) => this.userController.createUser(req, res));
 
-    this.router.put(`${this.path}/:id`, this.userController.updateUserById);
+    this.router.put(`${this.path}/:id`, (req, res) => this.userController.updateUserById(req, res));
 
-    this.router.delete(`${this.path}/:id`, this.userController.deleteUserById);
+    this.router.delete(`${this.path}/:id`, (req, res) => this.userController.deleteUserById(req, res));
   }
 }
 
