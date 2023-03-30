@@ -1,0 +1,42 @@
+2023-03-29 22:53:47 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3412
+Error: connect ECONNREFUSED 127.0.0.1:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlDriver.ts:1247:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlDriver.ts:1244:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:232:27)
+    at UserService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/config.ts:23:26)
+2023-03-29 22:53:47 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3412
+Error: connect ECONNREFUSED 127.0.0.1:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlDriver.ts:1247:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlDriver.ts:1244:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:232:27)
+    at CustomerService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/config.ts:23:26)
+2023-03-29 22:53:47 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:3412
+Error: connect ECONNREFUSED 127.0.0.1:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+    --------------------
+    at Protocol._enqueue (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Pool.js:48:16)
+    at /home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlDriver.ts:1247:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlDriver.ts:1244:16)
+    at MysqlDriver.connect (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlDriver.ts:392:36)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:232:27)
+    at TestimonialService.get initConnect [as initConnect] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/config.ts:23:26)

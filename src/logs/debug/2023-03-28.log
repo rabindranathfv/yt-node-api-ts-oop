@@ -1,0 +1,80 @@
+2023-03-28 22:40:31 info: =================================
+2023-03-28 22:40:31 info: ======= ENV: development =======
+2023-03-28 22:40:31 info: 🚀 App listening on the port 5000
+2023-03-28 22:40:31 info: =================================
+2023-03-28 22:41:29 info: =================================
+2023-03-28 22:41:29 info: ======= ENV: development =======
+2023-03-28 22:41:29 info: 🚀 App listening on the port 5000
+2023-03-28 22:41:29 info: =================================
+2023-03-28 22:42:43 info: =================================
+2023-03-28 22:42:43 info: ======= ENV: development =======
+2023-03-28 22:42:43 info: 🚀 App listening on the port 5000
+2023-03-28 22:42:43 info: =================================
+2023-03-28 22:44:21 info: =================================
+2023-03-28 22:44:21 info: ======= ENV: development =======
+2023-03-28 22:44:21 info: 🚀 App listening on the port 5000
+2023-03-28 22:44:21 info: =================================
+2023-03-28 22:44:25 info: =================================
+2023-03-28 22:44:25 info: ======= ENV: development =======
+2023-03-28 22:44:25 info: 🚀 App listening on the port 5000
+2023-03-28 22:44:25 info: =================================
+2023-03-28 22:45:18 info: =================================
+2023-03-28 22:45:18 info: ======= ENV: development =======
+2023-03-28 22:45:18 info: 🚀 App listening on the port 5000
+2023-03-28 22:45:18 info: =================================
+2023-03-28 22:45:18 info: =================================
+2023-03-28 22:45:18 info: ==== DB Connection success!! ====
+2023-03-28 22:45:18 info: =================================
+2023-03-28 22:49:34 info: =================================
+2023-03-28 22:49:34 info: ======= ENV: development =======
+2023-03-28 22:49:34 info: 🚀 App listening on the port 5000
+2023-03-28 22:49:34 info: =================================
+2023-03-28 22:49:34 info: =================================
+2023-03-28 22:49:34 info: ==== DB Connection success!! ====
+2023-03-28 22:49:34 info: =================================
+2023-03-28 22:50:24 info: [0mGET /api/users [33m404[0m 5.715 ms - 148[0m
+2023-03-28 22:50:32 info: UserController - getAllUsers
+2023-03-28 22:50:32 info: UserService - getAllUsers
+2023-03-28 22:50:32 info: [0mGET /api/v1/users [32m200[0m 37.328 ms - 203[0m
+2023-03-28 22:51:50 info: UserController - getUserById with id 1
+2023-03-28 22:51:50 info: UserService - getUserById with id 1
+2023-03-28 22:51:50 info: [0mGET /api/v1/users/1 [32m200[0m 10.770 ms - 201[0m
+2023-03-28 22:52:12 info: UserController - getUserById with id 1
+2023-03-28 22:52:12 info: UserService - getUserById with id 1
+2023-03-28 22:52:12 info: [0mGET /api/v1/users/1 [32m200[0m 11.143 ms - 201[0m
+2023-03-28 22:54:26 info: UserController - getUserById with id 2
+2023-03-28 22:54:26 info: UserService - getUserById with id 2
+2023-03-28 22:54:26 info: [0mGET /api/v1/users/2 [33m404[0m 9.189 ms - 71[0m
+2023-03-28 22:55:11 info: =================================
+2023-03-28 22:55:11 info: ======= ENV: development =======
+2023-03-28 22:55:11 info: 🚀 App listening on the port 5000
+2023-03-28 22:55:11 info: =================================
+2023-03-28 22:55:12 info: =================================
+2023-03-28 22:55:12 info: ==== DB Connection success!! ====
+2023-03-28 22:55:12 info: =================================
+2023-03-28 22:55:14 info: =================================
+2023-03-28 22:55:14 info: ======= ENV: development =======
+2023-03-28 22:55:14 info: 🚀 App listening on the port 5000
+2023-03-28 22:55:14 info: =================================
+2023-03-28 22:55:14 info: =================================
+2023-03-28 22:55:14 info: ==== DB Connection success!! ====
+2023-03-28 22:55:14 info: =================================
+2023-03-28 22:55:27 info: UserController - getUserById with id 2
+2023-03-28 22:55:27 info: UserService - getUserById with id 2
+2023-03-28 22:55:27 info: [0mGET /api/v1/users/2 [33m404[0m 23.772 ms - 71[0m
+2023-03-28 22:56:54 info: UserController - createUser
+2023-03-28 22:56:54 info: UserService - createUser
+2023-03-28 22:56:54 info: [0mPOST /api/v1/users [32m200[0m 194.143 ms - 275[0m
+2023-03-28 22:57:20 info: [0mPUT /api/v1/users [33m404[0m 5.666 ms - 151[0m
+2023-03-28 22:57:26 info: UserController - updateUserById with id 2
+2023-03-28 22:57:26 info: UserService - updateUserById with id 2
+2023-03-28 22:57:26 info: [0mPUT /api/v1/users/2 [32m200[0m 35.564 ms - 85[0m
+2023-03-28 22:57:46 info: UserController - getUserById with id 2
+2023-03-28 22:57:46 info: UserService - getUserById with id 2
+2023-03-28 22:57:46 info: [0mGET /api/v1/users/2 [32m200[0m 22.092 ms - 201[0m
+2023-03-28 22:57:57 info: UserController - deleteUserById with id 2
+2023-03-28 22:57:57 info: UserService - deleteUserById with id 2
+2023-03-28 22:57:57 info: [0mDELETE /api/v1/users/2 [32m200[0m 23.610 ms - 66[0m
+2023-03-28 22:58:02 info: UserController - getUserById with id 2
+2023-03-28 22:58:02 info: UserService - getUserById with id 2
+2023-03-28 22:58:02 info: [0mGET /api/v1/users/2 [33m404[0m 13.615 ms - 71[0m

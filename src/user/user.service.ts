@@ -26,11 +26,6 @@ class UserService extends BaseService<UserEntity> {
   public async getUserById(uId: string): Promise<UserEntity | null> {
     logger.info(`${UserService.name} - getUserById with id ${uId}`);
     const user = await (await this.useRepository).findOneBy({ id: uId });
-    if (!user) {
-      // TODO agregar o retonar error
-      console.log('Error no se encontro el usuario');
-    }
-
     return user;
   }
 
