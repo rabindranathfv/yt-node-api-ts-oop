@@ -10,6 +10,9 @@
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
     "build-tsc": "tsc",
+    "typeorm": "typeorm-ts-node-esm -d ./src/config/data.source.ts",
+    "mig:gen": "npm run typeorm migration:generate",
+    "mig:run": "npm run typeorm migration:run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -18,7 +18,7 @@ const configDBConnection: DataSourceOptions = {
   migrationsRun: true,
   logging: false,
   entities: [join(__dirname, '../**/*.entity{.ts,.js}')],
-  migrations: [join(__dirname, '../**/*.migration{.ts,.js}')],
+  migrations: [join(__dirname, '../migrations/*{.ts,.js}')],
   subscribers: [join(__dirname, '../**/*.subscriber{.ts,.js}')],
   namingStrategy: new SnakeNamingStrategy(),
 };

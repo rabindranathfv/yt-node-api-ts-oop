@@ -52,7 +52,6 @@ class App extends ConfigServer {
    */
   private async connectToDatabase(): Promise<DataSource | void> {
     // TODO: Inicializar la conexion
-    console.log('DIR de las entities', join(__dirname, '../**/*.entity{.ts,.js}'));
     return this.initConnect
       .then(() => {
         logger.info(`=================================`);
