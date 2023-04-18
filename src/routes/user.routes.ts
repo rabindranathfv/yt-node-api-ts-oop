@@ -1,13 +1,16 @@
 import { Router } from 'express';
-import { Routes } from '../interfaces/route.interface';
 import UserController from '../user/user.controller';
+import { BaseRouter } from '../shared/router/base.router';
+import { ValidateMiddlewareDTO } from '../middleware/validate-dto.middleware';
+import { UserDTO } from '../user/dto/user.dto';
 
-class UserRoute implements Routes {
+class UserRoute extends BaseRouter<UserController, ValidateMiddlewareDTO> {
   public path = '/users';
   public router = Router();
   public userController = new UserController();
 
   constructor() {
+    super(UserController, ValidateMiddlewareDTO);
     this.initUserRoute();
   }
 
@@ -19,7 +22,11 @@ class UserRoute implements Routes {
 
     this.router.get(`${this.path}/:id`, (req, res) => this.userController.getUserById(req, res));
 
-    this.router.post(`${this.path}`, (req, res) => this.userController.createUser(req, res));
+    this.router.post(
+      `${this.path}`,
+      (req, res, next) => [this.middleware.validator(req, res, next, UserDTO)],
+      (req, res) => this.userController.createUser(req, res),
+    );
 
     this.router.put(`${this.path}/:id`, (req, res) => this.userController.updateUserById(req, res));
 

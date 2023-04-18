@@ -1,4 +1,5 @@
-import { IsDate, IsNotEmpty, IsOptional } from 'class-validator';
+import { IsDate, IsNotEmpty, IsOptional, isNotEmpty } from 'class-validator';
+import { RoleType } from '../type/user.type';
 
 export class UserDTO {
   @IsOptional()
@@ -18,6 +19,9 @@ export class UserDTO {
 
   @IsNotEmpty()
   gender!: string;
+
+  @IsNotEmpty()
+  role!: RoleType;
 
   @IsDate()
   @IsOptional()

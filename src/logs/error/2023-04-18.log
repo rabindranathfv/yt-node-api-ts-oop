@@ -1,0 +1,176 @@
+2023-04-18 23:48:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(5,17): error TS2304: Cannot find name 'exte'.
+src/routes/user.routes.ts(6,10): error TS2304: Cannot find name 'path'.
+src/routes/user.routes.ts(7,10): error TS2552: Cannot find name 'router'. Did you mean 'Router'?
+src/routes/user.routes.ts(8,10): error TS2552: Cannot find name 'userController'. Did you mean 'UserController'?
+src/routes/user.routes.ts(10,3): error TS2304: Cannot find name 'constructor'.
+src/routes/user.routes.ts(11,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(17,10): error TS2552: Cannot find name 'initUserRoute'. Did you mean 'UserRoute'?
+src/routes/user.routes.ts(18,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(18,24): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(18,38): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(18,43): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(18,51): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(20,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(20,24): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(20,42): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(20,47): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(20,55): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(22,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(22,25): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(22,39): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(22,44): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(22,52): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(24,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(24,24): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(24,42): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(24,47): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(24,55): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(26,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(26,27): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(26,45): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(26,50): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(26,58): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(5,17): error TS1005: '{' expected.
+src/routes/user.routes.ts(6,3): error TS1128: Declaration or statement expected.
+src/routes/user.routes.ts(7,3): error TS1128: Declaration or statement expected.
+src/routes/user.routes.ts(8,3): error TS1128: Declaration or statement expected.
+src/routes/user.routes.ts(10,17): error TS1005: ';' expected.
+src/routes/user.routes.ts(17,3): error TS1128: Declaration or statement expected.
+src/routes/user.routes.ts(17,26): error TS1005: ';' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(5,17): error TS2304: Cannot find name 'exte'.
+src/routes/user.routes.ts(6,10): error TS2304: Cannot find name 'path'.
+src/routes/user.routes.ts(7,10): error TS2552: Cannot find name 'router'. Did you mean 'Router'?
+src/routes/user.routes.ts(8,10): error TS2552: Cannot find name 'userController'. Did you mean 'UserController'?
+src/routes/user.routes.ts(10,3): error TS2304: Cannot find name 'constructor'.
+src/routes/user.routes.ts(11,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(17,10): error TS2552: Cannot find name 'initUserRoute'. Did you mean 'UserRoute'?
+src/routes/user.routes.ts(18,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(18,24): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(18,38): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(18,43): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(18,51): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(20,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(20,24): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(20,42): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(20,47): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(20,55): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(22,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(22,25): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(22,39): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(22,44): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(22,52): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(24,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(24,24): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(24,42): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(24,47): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(24,55): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(26,5): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(26,27): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(26,45): error TS7006: Parameter 'req' implicitly has an 'any' type.
+src/routes/user.routes.ts(26,50): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/routes/user.routes.ts(26,58): error TS2532: Object is possibly 'undefined'.
+src/routes/user.routes.ts(5,17): error TS1005: '{' expected.
+src/routes/user.routes.ts(6,3): error TS1128: Declaration or statement expected.
+src/routes/user.routes.ts(7,3): error TS1128: Declaration or statement expected.
+src/routes/user.routes.ts(8,3): error TS1128: Declaration or statement expected.
+src/routes/user.routes.ts(10,17): error TS1005: ';' expected.
+src/routes/user.routes.ts(17,3): error TS1128: Declaration or statement expected.
+src/routes/user.routes.ts(17,26): error TS1005: ';' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-17985799783236978.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-17985799783236978.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-17985799783236978.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-18 23:48:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(5,25): error TS2304: Cannot find name 'Base'.
+src/routes/user.routes.ts(10,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/user.routes.ts(11,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(5,25): error TS2304: Cannot find name 'Base'.
+src/routes/user.routes.ts(10,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/user.routes.ts(11,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-17985799783236978.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-17985799783236978.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-17985799783236978.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-18 23:48:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(6,25): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/user.routes.ts(6,35): error TS1099: Type argument list cannot be empty.
+src/routes/user.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/user.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(6,25): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/user.routes.ts(6,35): error TS1099: Type argument list cannot be empty.
+src/routes/user.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/user.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-17985799783236978.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-17985799783236978.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-17985799783236978.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-18 23:48:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(6,25): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/user.routes.ts(6,50): error TS1009: Trailing comma not allowed.
+src/routes/user.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/user.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(6,25): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/user.routes.ts(6,50): error TS1009: Trailing comma not allowed.
+src/routes/user.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/user.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-17985799783236978.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-17985799783236978.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-17985799783236978.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-18 23:49:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(6,52): error TS2304: Cannot find name 'ValidateMiddlewareDTO'.
+src/routes/user.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/user.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(6,52): error TS2304: Cannot find name 'ValidateMiddlewareDTO'.
+src/routes/user.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/user.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-17985799783236978.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-17985799783236978.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-17985799783236978.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

@@ -1,0 +1,79 @@
+2023-04-19 00:10:20 info: =================================
+2023-04-19 00:10:20 info: ======= ENV: development =======
+2023-04-19 00:10:20 info: 🚀 App listening on the port 5000
+2023-04-19 00:10:20 info: =================================
+2023-04-19 00:10:21 info: =================================
+2023-04-19 00:10:21 info: ==== DB Connection success!! ====
+2023-04-19 00:10:21 info: =================================
+2023-04-19 00:13:56 info: =================================
+2023-04-19 00:13:56 info: ======= ENV: development =======
+2023-04-19 00:13:56 info: 🚀 App listening on the port 5000
+2023-04-19 00:13:56 info: =================================
+2023-04-19 00:13:56 info: =================================
+2023-04-19 00:13:56 info: ==== DB Connection success!! ====
+2023-04-19 00:13:56 info: =================================
+2023-04-19 00:14:15 info: [0mPOST /api/v1/users [33m400[0m 36.217 ms - 78[0m
+2023-04-19 00:15:30 info: [0mPOST /api/v1/users [33m400[0m 7.241 ms - 106[0m
+2023-04-19 00:16:00 info: UserController - createUser
+2023-04-19 00:16:00 info: UserService - createUser
+2023-04-19 00:16:00 info: [0mPOST /api/v1/users [32m200[0m 185.054 ms - 289[0m
+2023-04-19 00:16:36 info: UserController - createUser
+2023-04-19 00:16:36 info: UserService - createUser
+2023-04-19 00:16:36 info: [0mPOST /api/v1/users [32m200[0m 106.436 ms - 297[0m
+2023-04-19 00:16:46 info: UserController - getAllUsers
+2023-04-19 00:16:46 info: UserService - getAllUsers
+2023-04-19 00:16:46 info: [0mGET /api/v1/users [32m200[0m 8.029 ms - 398[0m
+2023-04-19 00:17:08 info: UserController - getUserById with id 2
+2023-04-19 00:17:08 info: UserService - getUserById with id 2
+2023-04-19 00:17:08 info: [0mGET /api/v1/users/2 [32m200[0m 16.260 ms - 223[0m
+2023-04-19 00:17:21 info: UserController - updateUserById with id 2
+2023-04-19 00:17:21 info: UserService - updateUserById with id 2
+2023-04-19 00:17:21 info: [0mPUT /api/v1/users/2 [32m200[0m 33.821 ms - 85[0m
+2023-04-19 00:17:25 info: UserController - getUserById with id 2
+2023-04-19 00:17:25 info: UserService - getUserById with id 2
+2023-04-19 00:17:25 info: [0mGET /api/v1/users/2 [32m200[0m 5.590 ms - 223[0m
+2023-04-19 00:17:35 info: UserController - updateUserById with id 2
+2023-04-19 00:17:35 info: UserService - updateUserById with id 2
+2023-04-19 00:17:35 info: [0mPUT /api/v1/users/2 [32m200[0m 15.249 ms - 85[0m
+2023-04-19 00:17:56 info: =================================
+2023-04-19 00:17:56 info: ======= ENV: development =======
+2023-04-19 00:17:56 info: 🚀 App listening on the port 5000
+2023-04-19 00:17:56 info: =================================
+2023-04-19 00:17:56 info: =================================
+2023-04-19 00:17:56 info: ==== DB Connection success!! ====
+2023-04-19 00:17:56 info: =================================
+2023-04-19 00:19:03 info: =================================
+2023-04-19 00:19:03 info: ======= ENV: development =======
+2023-04-19 00:19:03 info: 🚀 App listening on the port 5000
+2023-04-19 00:19:03 info: =================================
+2023-04-19 00:19:03 info: =================================
+2023-04-19 00:19:03 info: ==== DB Connection success!! ====
+2023-04-19 00:19:03 info: =================================
+2023-04-19 00:19:07 info: =================================
+2023-04-19 00:19:07 info: ======= ENV: development =======
+2023-04-19 00:19:07 info: 🚀 App listening on the port 5000
+2023-04-19 00:19:07 info: =================================
+2023-04-19 00:19:08 info: =================================
+2023-04-19 00:19:08 info: ==== DB Connection success!! ====
+2023-04-19 00:19:08 info: =================================
+2023-04-19 00:19:45 info: =================================
+2023-04-19 00:19:45 info: ======= ENV: development =======
+2023-04-19 00:19:45 info: 🚀 App listening on the port 5000
+2023-04-19 00:19:45 info: =================================
+2023-04-19 00:19:46 info: =================================
+2023-04-19 00:19:46 info: ==== DB Connection success!! ====
+2023-04-19 00:19:46 info: =================================
+2023-04-19 00:20:20 info: [0mPOST /api/v1/customers/ [32m200[0m 61.111 ms - 134[0m
+2023-04-19 00:20:54 info: [0mPOST /api/v1/customers/ [33m400[0m 4.032 ms - 78[0m
+2023-04-19 00:21:21 info: UserController - getUserById with id 1
+2023-04-19 00:21:21 info: UserService - getUserById with id 1
+2023-04-19 00:21:21 info: [0mGET /api/v1/users/1 [32m200[0m 16.494 ms - 215[0m
+2023-04-19 00:21:30 info: [0mPOST /api/v1/customers/ [32m200[0m 15.934 ms - 135[0m
+2023-04-19 00:55:37 info: =================================
+2023-04-19 00:55:37 info: ======= ENV: development =======
+2023-04-19 00:55:37 info: 🚀 App listening on the port 5000
+2023-04-19 00:55:37 info: =================================
+2023-04-19 00:55:38 info: =================================
+2023-04-19 00:55:38 info: ==== DB Connection success!! ====
+2023-04-19 00:55:38 info: =================================
+2023-04-19 00:55:48 info: [0mGET /api/v1/customers/ [32m200[0m 16.115 ms - 232[0m

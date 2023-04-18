@@ -1,0 +1,351 @@
+2023-04-19 00:06:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/middleware/validate-dto.middleware.ts(14,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/middleware/validate-dto.middleware.ts(14,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/middleware/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7742033433425539.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7742033433425539.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7742033433425539.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:08:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/middleware/validate-dto.middleware.ts(14,27): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/middleware/validate-dto.middleware.ts(14,27): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/middleware/validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6237282728437323.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6237282728437323.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6237282728437323.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:13:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(22,4): error TS2304: Cannot find name 'isN'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(22,4): error TS2304: Cannot find name 'isN'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/dto/user.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:13:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(22,4): error TS1240: Unable to resolve signature of property decorator when called as an expression.
+  This expression is not callable.
+    Type 'Boolean' has no call signatures.
+src/user/dto/user.dto.ts(22,4): error TS2554: Expected 1 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(22,4): error TS1240: Unable to resolve signature of property decorator when called as an expression.
+  This expression is not callable.
+    Type 'Boolean' has no call signatures.
+src/user/dto/user.dto.ts(22,4): error TS2554: Expected 1 arguments, but got 0.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/dto/user.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:13:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(22,4): error TS1240: Unable to resolve signature of property decorator when called as an expression.
+  This expression is not callable.
+    Type 'Boolean' has no call signatures.
+src/user/dto/user.dto.ts(22,4): error TS2554: Expected 1 arguments, but got 0.
+src/user/dto/user.dto.ts(23,10): error TS2304: Cannot find name 'RoleType'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(22,4): error TS1240: Unable to resolve signature of property decorator when called as an expression.
+  This expression is not callable.
+    Type 'Boolean' has no call signatures.
+src/user/dto/user.dto.ts(22,4): error TS2554: Expected 1 arguments, but got 0.
+src/user/dto/user.dto.ts(23,10): error TS2304: Cannot find name 'RoleType'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/dto/user.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:13:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(23,4): error TS1240: Unable to resolve signature of property decorator when called as an expression.
+  This expression is not callable.
+    Type 'Boolean' has no call signatures.
+src/user/dto/user.dto.ts(23,4): error TS2554: Expected 1 arguments, but got 0.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/dto/user.dto.ts(23,4): error TS1240: Unable to resolve signature of property decorator when called as an expression.
+  This expression is not callable.
+    Type 'Boolean' has no call signatures.
+src/user/dto/user.dto.ts(23,4): error TS2554: Expected 1 arguments, but got 0.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/dto/user.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:18:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(5,29): error TS2304: Cannot find name 'BaseRouter'.
+src/routes/customer.routes.ts(5,40): error TS2552: Cannot find name 'UserController'. Did you mean 'CustomerController'?
+src/routes/customer.routes.ts(5,56): error TS2304: Cannot find name 'ValidateMiddlewareDTO'.
+src/routes/customer.routes.ts(10,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/customer.routes.ts(11,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(5,29): error TS2304: Cannot find name 'BaseRouter'.
+src/routes/customer.routes.ts(5,40): error TS2552: Cannot find name 'UserController'. Did you mean 'CustomerController'?
+src/routes/customer.routes.ts(5,56): error TS2304: Cannot find name 'ValidateMiddlewareDTO'.
+src/routes/customer.routes.ts(10,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/customer.routes.ts(11,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/customer.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:18:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(6,29): error TS2304: Cannot find name 'BaseRouter'.
+src/routes/customer.routes.ts(6,40): error TS2552: Cannot find name 'UserController'. Did you mean 'CustomerController'?
+src/routes/customer.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/customer.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(6,29): error TS2304: Cannot find name 'BaseRouter'.
+src/routes/customer.routes.ts(6,40): error TS2552: Cannot find name 'UserController'. Did you mean 'CustomerController'?
+src/routes/customer.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/customer.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/customer.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:18:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(6,29): error TS2304: Cannot find name 'BaseRouter'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(6,29): error TS2304: Cannot find name 'BaseRouter'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/customer.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:18:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(6,29): error TS2304: Cannot find name 'BaseRouter'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(6,29): error TS2304: Cannot find name 'BaseRouter'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/customer.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:19:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(23,70): error TS2304: Cannot find name 'UserDTO'.
+src/routes/customer.routes.ts(24,6): error TS1135: Argument expression expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(23,70): error TS2304: Cannot find name 'UserDTO'.
+src/routes/customer.routes.ts(24,6): error TS1135: Argument expression expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/customer.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:19:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(23,70): error TS2304: Cannot find name 'UserDTO'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(23,70): error TS2304: Cannot find name 'UserDTO'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/customer.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:19:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(23,70): error TS2304: Cannot find name 'Custom'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/customer.routes.ts(23,70): error TS2304: Cannot find name 'Custom'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/customer.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:34:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/testimonial.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:34:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(7,32): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/testimonial.routes.ts(12,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(13,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(7,32): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/testimonial.routes.ts(12,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(13,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/testimonial.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:34:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(5,32): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/testimonial.routes.ts(10,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(11,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(5,32): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/testimonial.routes.ts(10,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(11,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/testimonial.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:34:48 error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at process.target._send (node:internal/child_process:866:20)
+    at process.target.send (node:internal/child_process:739:19)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at process.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/wrap.js:78:9)
+    at process.emit (node:events:539:35)
+    at process.emit (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:516:21)
+    at process._fatalException (node:internal/process/execution:167:25)
+2023-04-19 00:34:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(5,32): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/testimonial.routes.ts(5,42): error TS1099: Type argument list cannot be empty.
+src/routes/testimonial.routes.ts(10,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(11,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(5,32): error TS2314: Generic type 'BaseRouter<T, U>' requires 2 type argument(s).
+src/routes/testimonial.routes.ts(5,42): error TS1099: Type argument list cannot be empty.
+src/routes/testimonial.routes.ts(10,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(11,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/testimonial.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 00:35:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/testimonial.routes.ts(11,3): error TS2377: Constructors for derived classes must contain a 'super' call.
+src/routes/testimonial.routes.ts(12,5): error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/testimonial.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6452240384423855.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6452240384423855.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6452240384423855.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
