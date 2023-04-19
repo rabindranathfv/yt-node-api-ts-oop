@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import TestimonialController from '../testimonial/testimonial.controller';
+import TestimonialController from '../testimonial/controllers/testimonial.controller';
 import { BaseRouter } from '../shared/router/base.router';
 import { ValidateMiddlewareDTO } from '../middleware/validate-dto.middleware';
 import { TestimonialDTO } from '../testimonial/dto/testimonial.dto';

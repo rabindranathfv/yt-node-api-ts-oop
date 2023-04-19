@@ -1,8 +1,8 @@
 import { Request, Response } from 'express';
 import { DeleteResult, UpdateResult } from 'typeorm';
-import { HttpResponse } from '../shared/response/http.response';
-import { logger } from '../utils/logger';
-import TestimonialService from './testimonial.service';
+import { HttpResponse } from '../../shared/response/http.response';
+import { logger } from '../../utils/logger';
+import TestimonialService from '../services/testimonial.service';
 
 class TestimonialController {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -14,15 +14,15 @@ class TestimonialController {
   public getAllTestimonials = async (_req: Request, res: Response) => {
     try {
       logger.info(`${TestimonialController.name} - getAllTestimonials`);
-      const usersResp = await this.testimonialService.getAllTestimonials();
-      return this.httpResponse.OK(res, usersResp);
+      const testimonialResp = await this.testimonialService.getAllTestimonials();
+      return this.httpResponse.OK(res, testimonialResp);
     } catch (error) {
-      return this.httpResponse.Error(res, 'error server side');
+      return this.httpResponse.Error(res, 'error server side, getAllTestimonials');
     }
   };
 
   /**
-   * getUserById
+   * findTestimonialById
    */
   public findTestimonialById = async (req: Request, res: Response) => {
     try {
@@ -36,12 +36,12 @@ class TestimonialController {
 
       return this.httpResponse.OK(res, data);
     } catch (error) {
-      return this.httpResponse.Error(res, 'error server side');
+      return this.httpResponse.Error(res, 'error server side, findTestimonialById');
     }
   };
 
   /**
-   * createUser
+   * createTestimonial
    */
   public createTestimonial = async (req: Request, res: Response) => {
     try {
@@ -50,12 +50,12 @@ class TestimonialController {
 
       return this.httpResponse.OK(res, data);
     } catch (error) {
-      return this.httpResponse.Error(res, 'error server side');
+      return this.httpResponse.Error(res, 'error server side, createTestimonial');
     }
   };
 
   /**
-   * updateUserById
+   * updateTestimonial
    */
   public updateTestimonial = async (req: Request, res: Response) => {
     try {
@@ -63,32 +63,32 @@ class TestimonialController {
       logger.info(`${TestimonialController.name} - updateTestimonial with id ${id}`);
 
       const { body } = req;
-      const updatedUser: UpdateResult = await this.testimonialService.updateTestimonial(id, body);
-      if (!updatedUser.affected) {
-        return this.httpResponse.NotFound(res, 'user does not could updated');
+      const updatedTesti: UpdateResult | undefined = await this.testimonialService.updateTestimonial(id, body);
+      if (!updatedTesti?.affected) {
+        return this.httpResponse.NotFound(res, 'testimonial does not could updated');
       }
-      return this.httpResponse.OK(res, updatedUser);
+      return this.httpResponse.OK(res, updatedTesti);
     } catch (error) {
-      return this.httpResponse.Error(res, 'error server side');
+      return this.httpResponse.Error(res, 'error server side, updateTestimonial');
     }
   };
 
   /**
-   * deleteUserById
+   * deleteTestimonial
    */
   public deleteTestimonial = async (req: Request, res: Response) => {
     try {
       const { id } = req.params;
       logger.info(`${TestimonialController.name} - deleteTestimonial with id ${id}`);
-      const data: DeleteResult = await this.testimonialService.deleteTestimonial(id);
+      const data: DeleteResult | undefined = await this.testimonialService.deleteTestimonial(id);
 
-      if (!data.affected) {
+      if (!data?.affected) {
         return this.httpResponse.NotFound(res, 'user can not delete');
       }
 
       return this.httpResponse.OK(res, data);
     } catch (error) {
-      return this.httpResponse.Error(res, 'error server side');
+      return this.httpResponse.Error(res, 'error server side, deleteTestimonial');
     }
   };
 }

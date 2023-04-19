@@ -349,3 +349,181 @@ src/routes/testimonial.routes.ts(12,5): error TS17009: 'super' must be called be
     at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
     at Module.load (node:internal/modules/cjs/loader:981:32)
     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 17:36:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(69,13): error TS2322: Type 'UpdateResult | undefined' is not assignable to type 'UpdateResult'.
+  Type 'undefined' is not assignable to type 'UpdateResult'.
+src/user/controllers/user.controller.ts(86,13): error TS2322: Type 'DeleteResult | undefined' is not assignable to type 'DeleteResult'.
+  Type 'undefined' is not assignable to type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(69,13): error TS2322: Type 'UpdateResult | undefined' is not assignable to type 'UpdateResult'.
+  Type 'undefined' is not assignable to type 'UpdateResult'.
+src/user/controllers/user.controller.ts(86,13): error TS2322: Type 'DeleteResult | undefined' is not assignable to type 'DeleteResult'.
+  Type 'undefined' is not assignable to type 'DeleteResult'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/controllers/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9642251956416559.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9642251956416559.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9642251956416559.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 17:37:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(69,13): error TS2322: Type 'UpdateResult | undefined' is not assignable to type 'UpdateResult'.
+  Type 'undefined' is not assignable to type 'UpdateResult'.
+src/user/controllers/user.controller.ts(73,40): error TS2304: Cannot find name 'updatedUser'.
+src/user/controllers/user.controller.ts(86,13): error TS2322: Type 'DeleteResult | undefined' is not assignable to type 'DeleteResult'.
+  Type 'undefined' is not assignable to type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(69,13): error TS2322: Type 'UpdateResult | undefined' is not assignable to type 'UpdateResult'.
+  Type 'undefined' is not assignable to type 'UpdateResult'.
+src/user/controllers/user.controller.ts(73,40): error TS2304: Cannot find name 'updatedUser'.
+src/user/controllers/user.controller.ts(86,13): error TS2322: Type 'DeleteResult | undefined' is not assignable to type 'DeleteResult'.
+  Type 'undefined' is not assignable to type 'DeleteResult'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/controllers/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9642251956416559.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9642251956416559.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9642251956416559.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 17:37:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(86,13): error TS2322: Type 'DeleteResult | undefined' is not assignable to type 'DeleteResult'.
+  Type 'undefined' is not assignable to type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(86,13): error TS2322: Type 'DeleteResult | undefined' is not assignable to type 'DeleteResult'.
+  Type 'undefined' is not assignable to type 'DeleteResult'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/controllers/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9642251956416559.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9642251956416559.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9642251956416559.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 17:37:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(88,12): error TS2304: Cannot find name 'userDeleted'.
+src/user/controllers/user.controller.ts(92,40): error TS2304: Cannot find name 'userDeleted'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(88,12): error TS2304: Cannot find name 'userDeleted'.
+src/user/controllers/user.controller.ts(92,40): error TS2304: Cannot find name 'userDeleted'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/controllers/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9642251956416559.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9642251956416559.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9642251956416559.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 17:37:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(92,40): error TS2304: Cannot find name 'userDeleted'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/controllers/user.controller.ts(92,40): error TS2304: Cannot find name 'userDeleted'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/controllers/user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-9642251956416559.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-9642251956416559.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-9642251956416559.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 17:46:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(32,3): error TS2300: Duplicate identifier 'name'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(32,3): error TS2300: Duplicate identifier 'name'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/testimonial/dto/testimonial.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7581758951788755.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7581758951788755.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7581758951788755.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 17:46:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(32,17): error TS1110: Type expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(32,17): error TS1110: Type expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/testimonial/dto/testimonial.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7581758951788755.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7581758951788755.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7581758951788755.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 17:47:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(32,17): error TS2552: Cannot find name 'CustomerEntity'. Did you mean 'CustomEventInit'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(32,17): error TS2552: Cannot find name 'CustomerEntity'. Did you mean 'CustomEventInit'?
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/testimonial/dto/testimonial.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7581758951788755.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7581758951788755.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7581758951788755.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 18:01:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(36,14): error TS2304: Cannot find name 'PurchaseEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(36,14): error TS2304: Cannot find name 'PurchaseEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/testimonial/dto/testimonial.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7581758951788755.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7581758951788755.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7581758951788755.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-04-19 18:01:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(36,23): error TS2304: Cannot find name 'TestimonialUsageEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/dto/testimonial.dto.ts(36,23): error TS2304: Cannot find name 'TestimonialUsageEntity'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/testimonial/dto/testimonial.dto.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7581758951788755.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7581758951788755.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7581758951788755.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

@@ -77,3 +77,74 @@
 2023-04-19 00:55:38 info: ==== DB Connection success!! ====
 2023-04-19 00:55:38 info: =================================
 2023-04-19 00:55:48 info: [0mGET /api/v1/customers/ [32m200[0m 16.115 ms - 232[0m
+2023-04-19 17:37:44 info: =================================
+2023-04-19 17:37:44 info: ======= ENV: development =======
+2023-04-19 17:37:44 info: 🚀 App listening on the port 5000
+2023-04-19 17:37:44 info: =================================
+2023-04-19 17:37:44 info: =================================
+2023-04-19 17:37:44 info: ==== DB Connection success!! ====
+2023-04-19 17:37:44 info: =================================
+2023-04-19 17:46:37 info: =================================
+2023-04-19 17:46:37 info: ======= ENV: development =======
+2023-04-19 17:46:37 info: 🚀 App listening on the port 5000
+2023-04-19 17:46:37 info: =================================
+2023-04-19 17:46:38 info: =================================
+2023-04-19 17:46:38 info: ==== DB Connection success!! ====
+2023-04-19 17:46:38 info: =================================
+2023-04-19 17:47:12 info: =================================
+2023-04-19 17:47:12 info: ======= ENV: development =======
+2023-04-19 17:47:12 info: 🚀 App listening on the port 5000
+2023-04-19 17:47:12 info: =================================
+2023-04-19 17:47:12 info: =================================
+2023-04-19 17:47:12 info: ==== DB Connection success!! ====
+2023-04-19 17:47:12 info: =================================
+2023-04-19 18:01:47 info: =================================
+2023-04-19 18:01:47 info: ======= ENV: development =======
+2023-04-19 18:01:47 info: 🚀 App listening on the port 5000
+2023-04-19 18:01:47 info: =================================
+2023-04-19 18:01:47 info: =================================
+2023-04-19 18:01:47 info: ==== DB Connection success!! ====
+2023-04-19 18:01:47 info: =================================
+2023-04-19 18:07:24 info: TestimonialController - createTestimonial
+2023-04-19 18:07:24 info: TestimonialService - createTestimonial
+2023-04-19 18:07:25 info: [0mPOST /api/v1/testimonials/ [32m200[0m 109.421 ms - 395[0m
+2023-04-19 18:07:39 info: TestimonialController - createTestimonial
+2023-04-19 18:07:39 info: TestimonialService - createTestimonial
+2023-04-19 18:07:39 info: [0mPOST /api/v1/testimonials/ [32m200[0m 23.041 ms - 395[0m
+2023-04-19 18:07:45 info: TestimonialController - createTestimonial
+2023-04-19 18:07:45 info: TestimonialService - createTestimonial
+2023-04-19 18:07:45 info: [0mPOST /api/v1/testimonials/ [32m200[0m 20.033 ms - 395[0m
+2023-04-19 18:09:11 info: TestimonialController - deleteTestimonial with id 3
+2023-04-19 18:09:11 info: TestimonialService - deleteTestimonial
+2023-04-19 18:09:11 info: [0mDELETE /api/v1/testimonials/3 [32m200[0m 26.665 ms - 66[0m
+2023-04-19 18:09:41 info: TestimonialController - getAllTestimonials
+2023-04-19 18:09:41 info: TestimonialService - getAllTestimonials
+2023-04-19 18:09:41 info: [0mGET /api/v1/testimonials [32m200[0m 7.658 ms - 750[0m
+2023-04-19 18:11:24 info: =================================
+2023-04-19 18:11:24 info: ======= ENV: development =======
+2023-04-19 18:11:24 info: 🚀 App listening on the port 5000
+2023-04-19 18:11:24 info: =================================
+2023-04-19 18:11:24 info: =================================
+2023-04-19 18:11:24 info: ==== DB Connection success!! ====
+2023-04-19 18:11:24 info: =================================
+2023-04-19 18:11:39 info: TestimonialController - createTestimonial
+2023-04-19 18:11:39 info: TestimonialService - createTestimonial
+2023-04-19 18:11:39 info: [0mPOST /api/v1/testimonials/ [32m200[0m 51.295 ms - 410[0m
+2023-04-19 18:12:06 info: TestimonialController - deleteTestimonial with id 1
+2023-04-19 18:12:06 info: TestimonialService - deleteTestimonial
+2023-04-19 18:12:06 info: [0mDELETE /api/v1/testimonials/1 [32m200[0m 15.756 ms - 66[0m
+2023-04-19 18:12:09 info: TestimonialController - deleteTestimonial with id 2
+2023-04-19 18:12:09 info: TestimonialService - deleteTestimonial
+2023-04-19 18:12:09 info: [0mDELETE /api/v1/testimonials/2 [32m200[0m 14.775 ms - 66[0m
+2023-04-19 18:12:20 info: TestimonialController - createTestimonial
+2023-04-19 18:12:20 info: TestimonialService - createTestimonial
+2023-04-19 18:12:20 info: [0mPOST /api/v1/testimonials/ [32m200[0m 14.647 ms - 410[0m
+2023-04-19 18:17:27 info: TestimonialUsageController - createUsageTestimonial
+2023-04-19 18:17:27 info: TestimonialUsageService - createUsageTestimonial
+2023-04-19 18:17:27 info: [0mPOST /api/v1/testimonials-usage/ [32m200[0m 18.233 ms - 176[0m
+2023-04-19 18:17:37 info: TestimonialUsageController - createUsageTestimonial
+2023-04-19 18:17:37 info: TestimonialUsageService - createUsageTestimonial
+2023-04-19 18:17:37 info: [0mPOST /api/v1/testimonials-usage/ [32m200[0m 15.530 ms - 175[0m
+2023-04-19 18:17:57 info: TestimonialUsageController - getAllUsageTestimonials
+2023-04-19 18:17:57 info: TestimonialUsageService - getAllUsageTestimonials
+2023-04-19 18:17:57 info: [0mGET /api/v1/testimonials-usage/ [32m200[0m 6.815 ms - 275[0m

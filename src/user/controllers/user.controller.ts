@@ -66,11 +66,11 @@ class UserController {
       logger.info(`${UserController.name} - updateUserById with id ${userId}`);
 
       const { body: userBody } = req;
-      const updatedUser: UpdateResult = await this.userService.updateUserById(userId, userBody);
-      if (!updatedUser.affected) {
+      const data: UpdateResult | undefined = await this.userService.updateUserById(userId, userBody);
+      if (!data?.affected) {
         return this.httpResponse.NotFound(res, 'user does not could updated');
       }
-      return this.httpResponse.OK(res, updatedUser);
+      return this.httpResponse.OK(res, data);
     } catch (error) {
       return this.httpResponse.Error(res, 'error server side');
     }
@@ -83,13 +83,13 @@ class UserController {
     try {
       const { id: userId } = req.params;
       logger.info(`${UserController.name} - deleteUserById with id ${userId}`);
-      const userDeleted: DeleteResult = await this.userService.deleteUserById(userId);
+      const data: DeleteResult | undefined = await this.userService.deleteUserById(userId);
 
-      if (!userDeleted.affected) {
+      if (!data?.affected) {
         return this.httpResponse.NotFound(res, 'user can not delete');
       }
 
-      return this.httpResponse.OK(res, userDeleted);
+      return this.httpResponse.OK(res, data);
     } catch (error) {
       return this.httpResponse.Error(res, 'error server side');
     }

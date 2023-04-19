@@ -1,4 +1,6 @@
 import { IsDate, IsNotEmpty, IsOptional } from 'class-validator';
+import { CustomerEntity } from '../../customer/entities/customer.entity';
+import { TestimonialUsageEntity } from '../entities/testimonial-usage.entity';
 
 export class TestimonialDTO {
   @IsOptional()
@@ -27,6 +29,12 @@ export class TestimonialDTO {
 
   @IsNotEmpty()
   isLogoUsageOnSocialMediaGranted!: number;
+
+  @IsNotEmpty()
+  customer!: CustomerEntity;
+
+  @IsOptional()
+  testimonialUsages?: TestimonialUsageEntity;
 
   @IsDate()
   @IsOptional()
