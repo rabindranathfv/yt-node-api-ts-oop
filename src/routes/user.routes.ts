@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import UserController from '../user/user.controller';
+import UserController from '../user/controllers/user.controller';
 import { BaseRouter } from '../shared/router/base.router';
 import { ValidateMiddlewareDTO } from '../middleware/validate-dto.middleware';
 import { UserDTO } from '../user/dto/user.dto';
