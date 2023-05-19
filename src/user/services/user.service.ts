@@ -60,7 +60,7 @@ class UserService extends BaseService<UserEntity> {
       logger.info(`${UserService.name} - updateUserById with id ${id}`);
       const findUser = await (await this.useRepository).findOneBy({ id });
       if (!findUser) {
-        // TODO agregar o retonar error
+        // TODO: agregar o retonar error
         console.log('el usuario no EXISTE!!!');
       }
       return await (await this.useRepository).update(id, { ...updateUserBody });
@@ -77,7 +77,7 @@ class UserService extends BaseService<UserEntity> {
       logger.info(`${UserService.name} - deleteUserById with id ${id}`);
       const findUser = await (await this.useRepository).findOneBy({ id });
       if (!findUser) {
-        // TODO agregar o retonar error
+        // TODO: agregar o retonar error
         console.log('el usuario no EXISTE!!!');
       }
 
