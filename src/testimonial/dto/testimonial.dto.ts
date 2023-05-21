@@ -34,7 +34,7 @@ export class TestimonialDTO {
   customer!: CustomerEntity;
 
   @IsOptional()
-  testimonialUsages?: TestimonialUsageEntity;
+  testimonialUsages?: TestimonialUsageEntity[];
 
   @IsDate()
   @IsOptional()

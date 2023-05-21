@@ -44,6 +44,25 @@ class UserController {
   };
 
   /**
+   * getUserById
+   */
+  public getUserByIdWithRelation = async (req: Request, res: Response) => {
+    try {
+      const { id: userId } = req.params;
+      logger.info(`${UserController.name} - getUserByIdWithRelation with id ${userId}`);
+      const user = await this.userService.getUserByIdWithRel(userId);
+
+      if (!user) {
+        return this.httpResponse.NotFound(res, 'user does not exist');
+      }
+
+      return this.httpResponse.OK(res, user);
+    } catch (error) {
+      return this.httpResponse.Error(res, 'error server side');
+    }
+  };
+
+  /**
    * createUser
    */
   public createUser = async (req: Request, res: Response) => {

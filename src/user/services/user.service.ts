@@ -38,6 +38,60 @@ class UserService extends BaseService<UserEntity> {
   }
 
   /**
+   * getUserByIdWithRel
+   */
+  public async getUserByIdWithRel(uId: string): Promise<UserEntity | null | undefined> {
+    try {
+      logger.info(`${UserService.name} - getUserByIdWithRel with id ${uId}`);
+      const user = (await this.useRepository)
+        .createQueryBuilder('user')
+        .leftJoinAndSelect('user.customer', 'customer')
+        .where({ id: uId })
+        .getOne();
+
+      return user;
+    } catch (error) {
+      console.log('🚀 ~ file: user.service.ts:54 ~ UserService ~ getUserByIdWithRel ~ error:', error);
+    }
+  }
+
+  /**
+   * findUserByEmail
+   */
+  public async findUserByEmail(email: string): Promise<UserEntity | null | undefined> {
+    try {
+      logger.info(`${UserService.name} - findUserByEmail with email: ${email}`);
+      const findUser = (await this.useRepository)
+        .createQueryBuilder('user')
+        .addSelect('user.password')
+        .where({ email })
+        .getOne();
+
+      return findUser;
+    } catch (error) {
+      console.log('🚀 ~ file: user.service.ts:72 ~ UserService ~ findUserByEmail ~ error:', error);
+    }
+  }
+
+  /**
+   * findUserByName
+   */
+  public async findUserByName(name: string): Promise<UserEntity | null | undefined> {
+    try {
+      logger.info(`${UserService.name} - findUserByName with name: ${name}`);
+      const findUser = (await this.useRepository)
+        .createQueryBuilder('user')
+        .addSelect('user.name')
+        .where({ name })
+        .getOne();
+
+      return findUser;
+    } catch (error) {
+      console.log('🚀 ~ file: user.service.ts:90 ~ UserService ~ findUserByName ~ error:', error);
+    }
+  }
+
+  /**
    * createUser
    */
   public async createUser(userBody: UserDTO): Promise<UserEntity | null | undefined> {

@@ -1,0 +1,399 @@
+2023-05-21 20:06:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/testimonial/services/testimonial.service.ts(38,54): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<TestimonialEntity>[]): TestimonialEntity[]', gave the following error.
+    Argument of type 'TestimonialDTO' is not assignable to parameter of type 'DeepPartial<TestimonialEntity>[]'.
+      Type 'TestimonialDTO' is missing the following properties from type 'DeepPartial<TestimonialEntity>[]': length, pop, push, concat, and 29 more.
+  Overload 2 of 3, '(entityLike: DeepPartial<TestimonialEntity>): TestimonialEntity', gave the following error.
+    Argument of type 'TestimonialDTO' is not assignable to parameter of type 'DeepPartial<TestimonialEntity>'.
+      Type 'TestimonialDTO' is not assignable to type '{ id?: string | undefined; name?: string | undefined; content?: string | undefined; isNameUsageOnWebsiteGranted?: number | undefined; isNameUsageOnSocialMediaGranted?: number | undefined; ... 7 more ...; testimonialUsages?: DeepPartial<...> | undefined; }'.
+        Types of property 'testimonialUsages' are incompatible.
+          Type 'TestimonialUsageEntity | undefined' is not assignable to type 'DeepPartial<TestimonialUsageEntity[]> | undefined'.
+            Type 'TestimonialUsageEntity' is not assignable to type 'DeepPartial<TestimonialUsageEntity[]> | undefined'.
+src/testimonial/services/testimonial.service.ts(39,7): error TS2740: Type 'TestimonialEntity[]' is missing the following properties from type 'TestimonialEntity': id, name, content, isNameUsageOnWebsiteGranted, and 9 more.
+src/testimonial/services/testimonial.service.ts(51,53): error TS2345: Argument of type '{ id: string; name: string; content: string; isNameUsageOnWebsiteGranted: number; isNameUsageOnSocialMediaGranted: number; isContentUsageOnWebsiteGranted: number; isContentUsageOnSocialMediaGranted: number; ... 5 more ...; updateAt: Date; }' is not assignable to parameter of type '_QueryDeepPartialEntity<TestimonialEntity>'.
+  Types of property 'testimonialUsages' are incompatible.
+    Type 'TestimonialUsageEntity | undefined' is not assignable to type '(() => string) | _QueryDeepPartialEntity<TestimonialUsageEntity>[] | undefined'.
+      Type 'TestimonialUsageEntity' is not assignable to type '(() => string) | _QueryDeepPartialEntity<TestimonialUsageEntity>[] | undefined'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/testimonial/services/testimonial.service.ts(38,54): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<TestimonialEntity>[]): TestimonialEntity[]', gave the following error.
+    Argument of type 'TestimonialDTO' is not assignable to parameter of type 'DeepPartial<TestimonialEntity>[]'.
+      Type 'TestimonialDTO' is missing the following properties from type 'DeepPartial<TestimonialEntity>[]': length, pop, push, concat, and 29 more.
+  Overload 2 of 3, '(entityLike: DeepPartial<TestimonialEntity>): TestimonialEntity', gave the following error.
+    Argument of type 'TestimonialDTO' is not assignable to parameter of type 'DeepPartial<TestimonialEntity>'.
+      Type 'TestimonialDTO' is not assignable to type '{ id?: string | undefined; name?: string | undefined; content?: string | undefined; isNameUsageOnWebsiteGranted?: number | undefined; isNameUsageOnSocialMediaGranted?: number | undefined; ... 7 more ...; testimonialUsages?: DeepPartial<...> | undefined; }'.
+        Types of property 'testimonialUsages' are incompatible.
+          Type 'TestimonialUsageEntity | undefined' is not assignable to type 'DeepPartial<TestimonialUsageEntity[]> | undefined'.
+            Type 'TestimonialUsageEntity' is not assignable to type 'DeepPartial<TestimonialUsageEntity[]> | undefined'.
+src/testimonial/services/testimonial.service.ts(39,7): error TS2740: Type 'TestimonialEntity[]' is missing the following properties from type 'TestimonialEntity': id, name, content, isNameUsageOnWebsiteGranted, and 9 more.
+src/testimonial/services/testimonial.service.ts(51,53): error TS2345: Argument of type '{ id: string; name: string; content: string; isNameUsageOnWebsiteGranted: number; isNameUsageOnSocialMediaGranted: number; isContentUsageOnWebsiteGranted: number; isContentUsageOnSocialMediaGranted: number; ... 5 more ...; updateAt: Date; }' is not assignable to parameter of type '_QueryDeepPartialEntity<TestimonialEntity>'.
+  Types of property 'testimonialUsages' are incompatible.
+    Type 'TestimonialUsageEntity | undefined' is not assignable to type '(() => string) | _QueryDeepPartialEntity<TestimonialUsageEntity>[] | undefined'.
+      Type 'TestimonialUsageEntity' is not assignable to type '(() => string) | _QueryDeepPartialEntity<TestimonialUsageEntity>[] | undefined'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/testimonial/services/testimonial.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-7794675072989543.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-7794675072989543.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-7794675072989543.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:06:51 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:88:28)
+2023-05-21 20:06:51 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at TestimonialUsageService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:06:51 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at UserService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:06:51 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at UserService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:06:52 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at TestimonialService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:06:52 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at TestimonialService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:06:52 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:88:28)
+2023-05-21 20:07:53 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:88:28)
+2023-05-21 20:07:53 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at TestimonialUsageService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:07:53 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at TestimonialUsageService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:07:53 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at UserService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:07:53 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at CustomerService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:07:53 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at TestimonialService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:07:53 error: uncaughtException: Cannot execute operation on "default" connection because connection is not yet established.
+CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+    at DataSource.destroy (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:285:19)
+    at DataSource.close (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:302:21)
+    at DataSource.initialize (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/data-source/DataSource.ts:260:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at TestimonialService.initRepository (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/config/base.service.ts:12:24)
+2023-05-21 20:07:53 error: uncaughtException: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+QueryFailedError: ER_TABLE_EXISTS_ERROR: Table 'testimonial_usage' already exists
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/driver/mysql/MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/mysql/lib/Connection.js:88:28)
+2023-05-21 20:14:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(45,77): error TS2304: Cannot find name 'uId'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(45,77): error TS2304: Cannot find name 'uId'.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:15:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(46,13): error TS1155: 'const' declarations must be initialized.
+src/user/services/user.service.ts(46,13): error TS7005: Variable 'user' implicitly has an 'any' type.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(46,13): error TS1155: 'const' declarations must be initialized.
+src/user/services/user.service.ts(46,13): error TS7005: Variable 'user' implicitly has an 'any' type.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:15:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,27): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,27): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:15:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,27): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,27): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:15:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(47,5): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(47,5): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:15:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/user/services/user.service.ts(43,64): error TS2304: Cannot find name 'nu'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(47,5): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+src/user/services/user.service.ts(43,64): error TS2304: Cannot find name 'nu'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(47,5): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:15:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,27): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,27): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:16:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:16:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:16:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:16:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-21 20:17:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/services/user.service.ts(43,43): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/services/user.service.ts(46,20): error TS2311: Cannot find name 'await'. Did you mean to write this in an async function?
+src/user/services/user.service.ts(46,26): error TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/user/services/user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-44558172126573714.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-44558172126573714.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-44558172126573714.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
