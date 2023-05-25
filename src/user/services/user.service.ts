@@ -4,6 +4,7 @@ import { UserEntity } from '../entities/user.entity';
 import { DeleteResult, UpdateResult } from 'typeorm';
 import { UserDTO } from '../dto/user.dto';
 import { createHashValue } from '../../utils/hash';
+import { RoleType } from '../type/user.type';
 
 class UserService extends BaseService<UserEntity> {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -48,6 +49,20 @@ class UserService extends BaseService<UserEntity> {
         .leftJoinAndSelect('user.customer', 'customer')
         .where({ id: uId })
         .getOne();
+
+      return user;
+    } catch (error) {
+      console.log('🚀 ~ file: user.service.ts:54 ~ UserService ~ getUserByIdWithRel ~ error:', error);
+    }
+  }
+
+  /**
+   * findUserWithRol
+   */
+  public async findUserWithRol(uId: string, role: RoleType): Promise<UserEntity | null | undefined> {
+    try {
+      logger.info(`${UserService.name} - findUserWithRol`);
+      const user = (await this.useRepository).createQueryBuilder('user').where({ id: uId }).andWhere({ role }).getOne();
 
       return user;
     } catch (error) {

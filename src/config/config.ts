@@ -16,6 +16,7 @@ export const {
   DB_NAME,
   DB_PASSWORD,
   DB_USER,
+  JWT_SECRET,
 } = process.env;
 
 export abstract class ConfigServer {
