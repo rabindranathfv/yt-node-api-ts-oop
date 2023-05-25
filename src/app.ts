@@ -14,6 +14,7 @@ import corsConfig from './config/cors.config';
 
 import { DataSource } from 'typeorm';
 import { LoginStrategy } from './auth/strategies/login.strategy';
+import { JwtStrategy } from './auth/strategies/jwt.strategy';
 
 class App extends ConfigServer {
   public app: express.Application;
@@ -49,7 +50,7 @@ class App extends ConfigServer {
   }
 
   public passportUse() {
-    return [new LoginStrategy().use];
+    return [new LoginStrategy().use, new JwtStrategy().use];
   }
 
   /**
