@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import TestimonialController from '../testimonial/controllers/testimonial.controller';
 import { BaseRouter } from '../shared/router/base.router';
-import { ValidateMiddlewareDTO } from '../middleware/validate-dto.middleware';
+import { ValidateMiddlewareDTO } from '../shared/middleware/validate-dto.middleware';
 import { TestimonialDTO } from '../testimonial/dto/testimonial.dto';
 
 class TestimonialRoute extends BaseRouter<TestimonialController, ValidateMiddlewareDTO> {

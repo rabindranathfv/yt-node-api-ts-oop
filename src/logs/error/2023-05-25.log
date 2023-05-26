@@ -1,0 +1,216 @@
+2023-05-25 22:32:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(24,74): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,79): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,87): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<Response<any, Record<string, any>>>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(24,119): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,124): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,84): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(24,74): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,79): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,87): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<Response<any, Record<string, any>>>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(24,119): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,124): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,84): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49439332245649514.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49439332245649514.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49439332245649514.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 22:32:11 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/util/ImportUtils.ts:21:17)
+2023-05-25 22:32:11 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-49439332245649514.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49439332245649514.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49439332245649514.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49439332245649514.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 22:32:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(24,74): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,79): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,87): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<Response<any, Record<string, any>>>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(24,119): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,124): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,84): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(24,74): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,79): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,87): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<Response<any, Record<string, any>>>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(24,119): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,124): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,84): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49439332245649514.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49439332245649514.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49439332245649514.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 22:32:27 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/util/ImportUtils.ts:21:17)
+2023-05-25 22:32:27 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-49439332245649514.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49439332245649514.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49439332245649514.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49439332245649514.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 22:32:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(24,74): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,79): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,87): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<Response<any, Record<string, any>>>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(24,119): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,124): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,84): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(24,74): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,79): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,87): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<Response<any, Record<string, any>>>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(24,119): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,124): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,84): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49439332245649514.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49439332245649514.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49439332245649514.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 22:32:33 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/util/ImportUtils.ts:21:17)
+2023-05-25 22:32:33 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-49439332245649514.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49439332245649514.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49439332245649514.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49439332245649514.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 22:32:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(24,74): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,79): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,87): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<Response<any, Record<string, any>>>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(24,119): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,124): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,84): error TS1005: ',' expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(24,74): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,79): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,87): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'Promise<Response<any, Record<string, any>>>' is not assignable to parameter of type 'RequestHandlerParams<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+src/routes/user.routes.ts(24,119): error TS2304: Cannot find name 'req'.
+src/routes/user.routes.ts(24,124): error TS2304: Cannot find name 'res'.
+src/routes/user.routes.ts(24,84): error TS1005: ',' expected.
+
+    at Object.<anonymous> (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/routes/user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49439332245649514.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49439332245649514.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49439332245649514.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-05-25 22:32:39 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at Object.exports.send (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/ipc.js:17:14)
+    at /home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/wrap.js:88:9
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:61:17)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at tryToRequire (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/util/ImportUtils.ts:21:17)
+2023-05-25 22:32:39 error: uncaughtException: Channel closed
+Error: Channel closed
+    at new NodeError (node:internal/errors:372:5)
+    at process.target.send (node:internal/child_process:741:16)
+    at compile (/tmp/ts-node-dev-hook-49439332245649514.js:46:21)
+    at Module.m._compile (/tmp/ts-node-dev-hook-49439332245649514.js:69:44)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-49439332245649514.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-49439332245649514.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)

@@ -15,7 +15,7 @@ export class SharedMiddleware {
     const user = req.user as UserEntity;
 
     if (user.role !== RoleType.ADMIN) {
-      return this.httpResponse.Unauthorized(res, `you do not have enought permission`);
+      return this.httpResponse.Forbbiden(res, `you do not have enought permission`);
     }
 
     next();

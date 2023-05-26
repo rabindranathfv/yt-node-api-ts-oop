@@ -1,12 +1,14 @@
 import { NextFunction, Request, Response } from 'express';
 import { plainToClass } from 'class-transformer';
 
-import { HttpResponse } from '../shared/response/http.response';
 import { ValidationError, validate } from 'class-validator';
 import { sanitize } from 'class-sanitizer';
+import { SharedMiddleware } from './share.middleware';
 
-export class ValidateMiddlewareDTO {
-  constructor(private readonly httpResponse: HttpResponse = new HttpResponse()) {}
+export class ValidateMiddlewareDTO extends SharedMiddleware {
+  constructor() {
+    super();
+  }
 
   validator(req: Request, res: Response, next: NextFunction, type: any) {
     const dtoObj = plainToClass(type, req.body);

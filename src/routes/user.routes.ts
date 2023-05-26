@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import UserController from '../user/controllers/user.controller';
 import { BaseRouter } from '../shared/router/base.router';
-import { ValidateMiddlewareDTO } from '../middleware/validate-dto.middleware';
+import { ValidateMiddlewareDTO } from '../shared/middleware/validate-dto.middleware';
 import { UserDTO } from '../user/dto/user.dto';
 
 class UserRoute extends BaseRouter<UserController, ValidateMiddlewareDTO> {
@@ -18,10 +18,16 @@ class UserRoute extends BaseRouter<UserController, ValidateMiddlewareDTO> {
    * initUserRoute
    */
   public initUserRoute() {
-    this.router.get(`${this.path}`, (req, res) => this.userController.getAllUsers(req, res));
+    this.router.get(`${this.path}`, this.middleware.passAuth('jwt'), (req, res) =>
+      this.userController.getAllUsers(req, res),
+    );
 
-    this.router.get(`${this.path}/rel/:id`, (req, res) => this.userController.getUserByIdWithRelation(req, res));
-    this.router.get(`${this.path}/:id`, (req, res) => this.userController.getUserById(req, res));
+    this.router.get(`${this.path}/rel/:id`, this.middleware.passAuth('jwt'), (req, res) =>
+      this.userController.getUserByIdWithRelation(req, res),
+    );
+    this.router.get(`${this.path}/:id`, this.middleware.passAuth('jwt'), (req, res) =>
+      this.userController.getUserById(req, res),
+    );
 
     this.router.post(
       `${this.path}`,
@@ -29,9 +35,19 @@ class UserRoute extends BaseRouter<UserController, ValidateMiddlewareDTO> {
       (req, res) => this.userController.createUser(req, res),
     );
 
-    this.router.put(`${this.path}/:id`, (req, res) => this.userController.updateUserById(req, res));
+    this.router.put(
+      `${this.path}/:id`,
+      this.middleware.passAuth('jwt'),
+      (req, res, next) => [this.middleware.checkAdminRole(req, res, next)],
+      (req, res) => this.userController.updateUserById(req, res),
+    );
 
-    this.router.delete(`${this.path}/:id`, (req, res) => this.userController.deleteUserById(req, res));
+    this.router.delete(
+      `${this.path}/:id`,
+      this.middleware.passAuth('jwt'),
+      (req, res, next) => [this.middleware.checkAdminRole(req, res, next)],
+      (req, res) => this.userController.deleteUserById(req, res),
+    );
   }
 }
 

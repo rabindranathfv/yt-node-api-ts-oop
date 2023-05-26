@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { BaseRouter } from '../shared/router/base.router';
-import { ValidateMiddlewareDTO } from '../middleware/validate-dto.middleware';
+import { ValidateMiddlewareDTO } from '../shared/middleware/validate-dto.middleware';
 import TestimonialUsageController from '../testimonial/controllers/testimonial-usage.controller';
 import { TestimonialUsagelDTO } from '../testimonial/dto/testimonial-usage.dto';
 

@@ -18,3 +18,5 @@ export class AuthRoutes extends BaseRouter<AuthController, SharedMiddleware> {
     this.router.post('/login', this.middleware.passAuth('login'), (req, res) => this.authController.login(req, res));
   }
 }
+
+export default AuthRoutes;
