@@ -7,10 +7,19 @@ services:
       - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
     command: --init-file /docker-entrypoint-initdb.d/init.sql
     ports:
-      - "3412:3306"
+      - '3412:3306'
     environment:
-      MYSQL_DATABASE: testimonials_db_dev
+      MYSQL_DATABASE: testimonials_db_prod
       MYSQL_ROOT_USER: userrfv
       MYSQL_USER: userrfv
       MYSQL_ROOT_PASSWORD: SECRET
       MYSQL_PASSWORD: SECRET
+
+  api:
+    build: .
+    container_name: api_container_testimonial
+    ports:
+      - '6000:6000'
+    depends_on:
+      - testimonials_db_dev
+    restart: on-failure

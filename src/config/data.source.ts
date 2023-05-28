@@ -7,6 +7,8 @@ config({ path: `.env.${process.env.NODE_ENV || 'development'}.local` });
 
 export const { PORT, DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD } = process.env;
 
+console.log('🚀 ~ file: data.source.ts:9 ~ DB_HOST:', DB_HOST, DB_PORT, DB_NAME, DB_USER);
+
 const configDBConnection: DataSourceOptions = {
   type: 'mysql',
   host: DB_HOST,
